@@ -36,11 +36,11 @@ class UserSeeder extends Seeder
         return [
             array_merge($commonAttributes, [
                 'name' => 'Super Admin',
-                'email' => 'adminh@example.com',
+                'email' => 'admin@example.com',
                 'remember_token' => Str::random(10),
             ]),
             array_merge($commonAttributes, [
-                'name' => 'jon',
+                'name' => 'Jon',
                 'email' => 'jon@example.com',
                 'remember_token' => Str::random(10),
             ]),
