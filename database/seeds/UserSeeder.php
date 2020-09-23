@@ -34,6 +34,7 @@ class UserSeeder extends Seeder
         ];
 
 
+        // array merge and return user set
         return [
             array_merge($commonAttributes, [
                 'name' => 'Super Admin',
