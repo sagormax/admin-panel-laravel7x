@@ -1,0 +1,18 @@
+.login_wrapper .invalid-feedback {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login_wrapper .form-control.is-invalid {
+  margin-bottom: 0;
+}
+
+.login_wrapper .submit-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login_wrapper .submit-block .reset_pass {
+  margin-right: 0;
+}
+

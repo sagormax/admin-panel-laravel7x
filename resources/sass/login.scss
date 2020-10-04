@@ -1,0 +1,20 @@
+@import "variables";
+
+.login_wrapper {
+    .invalid-feedback {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .form-control {
+        &.is-invalid {
+            margin-bottom: 0;
+        }
+    }
+    .submit-block {
+        display: flex;
+        justify-content: space-between;
+        .reset_pass {
+            margin-right: 0;
+        }
+    }
+}
